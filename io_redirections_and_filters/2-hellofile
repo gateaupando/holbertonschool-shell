@@ -1,26 +1,2 @@
-total 44
-drwxr-xr-x 2 root root 4096 Jun 15 13:04 .
-drwxr-xr-x 6 root root 4096 Jun 15 12:48 ..
--rwxr-xr-x 1 root root   32 Jun 15 12:48 0-hello_world
--rwxr-xr-x 1 root root   28 Jun 15 12:48 1-confused_smiley
--rwxr-xr-x 1 root root    0 Jun 15 13:04 2-hellofile
--rwxr-xr-x 1 root root   39 Jun 15 12:48 3-twofiles
--rwxr-xr-x 1 root root   35 Jun 15 12:48 4-lastlines
--rwxr-xr-x 1 root root   35 Jun 15 12:48 5-firstlines
--rwxr-xr-x 1 root root   36 Jun 15 12:48 6-third_line
--rwxr-xr-x 1 root root   98 Jun 15 12:48 7-file
--rw-r--r-- 1 root root   13 Jun 15 13:04 8-cwd_state
--rw-r--r-- 1 root root   12 Jun 15 12:48 README.md
-total 48
-drwxr-xr-x 2 root root 4096 Jun 15 13:04 .
-drwxr-xr-x 6 root root 4096 Jun 15 12:48 ..
--rwxr-xr-x 1 root root   32 Jun 15 12:48 0-hello_world
--rwxr-xr-x 1 root root   28 Jun 15 12:48 1-confused_smiley
--rwxr-xr-x 1 root root  628 Jun 15 13:04 2-hellofile
--rwxr-xr-x 1 root root   39 Jun 15 12:48 3-twofiles
--rwxr-xr-x 1 root root   35 Jun 15 12:48 4-lastlines
--rwxr-xr-x 1 root root   35 Jun 15 12:48 5-firstlines
--rwxr-xr-x 1 root root   36 Jun 15 12:48 6-third_line
--rwxr-xr-x 1 root root   98 Jun 15 12:48 7-file
--rw-r--r-- 1 root root   13 Jun 15 13:04 8-cwd_state
--rw-r--r-- 1 root root   12 Jun 15 12:48 README.md
+#!/bin/bash 
+cat /etc/passwd
